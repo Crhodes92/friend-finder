@@ -18,7 +18,7 @@ module.exports = function (app) {
     for(var i = 0; i<friends.length; i++){
       var diff=0;
       for (var x=0; x<userResponses.length; x++) {
-        diff +=Math.abs(friends[i].scores[x] - userResponses[j]);
+        diff +=Math.abs(friends[i].scores[x] - userResponses[x]);
       }
       if (diff<difference) {
         difference = diff;
