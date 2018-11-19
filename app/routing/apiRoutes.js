@@ -23,7 +23,7 @@ module.exports = function (app) {
       if (diff<difference) {
         difference = diff;
         matchedPerson = friends[i].name;
-        matchedimage = friends[i].photo
+        matchedImage = friends[i].photo
       }
     }
     friends.push(userInput);
